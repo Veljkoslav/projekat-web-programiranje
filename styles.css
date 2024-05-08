@@ -1,0 +1,50 @@
+body {
+  font-family: Tahoma, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+td, th {
+  border: 1px solid #333;
+  padding: 5px;
+  text-align: center;
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+}
+
+img {
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+}
+
+section {
+  margin-left: 70px;
+  font-size: 14px;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #555;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.centriranje {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  place-items: center;
+}
